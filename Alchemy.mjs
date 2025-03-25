@@ -91,7 +91,7 @@ for (let i = 0; i < string.length; i++) {
 console.log(capitalLetters);
 
 
-function findLetterPlacement() {
+async function findLetterPlacement() {
     const base = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let soveldString = '';
     for (let i = 0; i < alphabetCipher.length; i++) {
@@ -109,7 +109,7 @@ function findLetterPlacement() {
 console.log(findLetterPlacement());
 
 
-function findSequence(sequence, grid) {
+async function findSequence(sequence, grid) {
     const positions = [];
 
 
